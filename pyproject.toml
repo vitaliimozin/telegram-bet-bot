@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "telegram-bet-bot"
+version = "0.1.0"
+description = ""
+authors = ["Vitalii Mozin <vitalii.mozin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+isort = "^5.13.2"
+ruff = "^0.1.9"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
